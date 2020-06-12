@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:12-alpine
 
 RUN apk add --update file libunwind build-base python tzdata zeromq-dev \
     && rm -rf /var/cache/apk/* \
