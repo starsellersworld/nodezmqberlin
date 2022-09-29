@@ -1,5 +1,5 @@
 ARG ARCH=
-FROM ${ARCH}node:16-alpine
+FROM ${ARCH}node:18-alpine
 
 RUN apk add --update file libunwind build-base curl py-pip tzdata zeromq-dev git openssh-client \
     && rm -rf /var/cache/apk/* \
