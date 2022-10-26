@@ -1,6 +1,6 @@
 #! /bin/sh
 IMAGETAG=starsellersworld/nodezmqberlin:18
-ARCHS="amd64 arm32v7"
+ARCHS="amd64 arm32v7 arm64v8"
 
 TAGMANIFEST=starsellersworld/nodezmqberlin:18
 
