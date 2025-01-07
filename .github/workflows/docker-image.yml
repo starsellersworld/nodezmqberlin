@@ -24,6 +24,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags:
-          - starsellersworld/nodezmqberlin:latest
-          - starsellersworld/nodezmqberlin:18
+          tags: starsellersworld/nodezmqberlin:18
